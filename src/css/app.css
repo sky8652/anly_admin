@@ -1,8 +1,6 @@
 /**
  * Name:app.css
- * Author:Van
- * E-mail:zheng_jinfan@126.com
- * Website:http://kit.zhengjinfan.cn/
+ * Author:Van/Anly
  * LICENSE:MIT
  */
 
@@ -16,7 +14,7 @@
 }
 
 ::-webkit-scrollbar-track,
- ::-webkit-scrollbar-corner {
+::-webkit-scrollbar-corner {
     background-color: #e2e2e2;
 }
 
@@ -32,7 +30,6 @@
 ::-webkit-scrollbar-thumb:vertical:active {
     background-color: rgba(0, 0, 0, .38);
 }
-
 
 /* ripple start */
 
@@ -65,7 +62,6 @@ button {
     }
 }
 
-
 /* ripple end */
 
 .kit-layout-admin .kit-logo-mobile {
@@ -81,20 +77,12 @@ button {
     line-height: 50px;
 }
 
-/* .kit-nav .layui-nav-item .layui-nav-more {
-    top: 22px;
-} */
-
-/* .kit-nav .layui-nav-item .layui-nav-mored {
-    top: 16px;
-} */
-
 .kit-nav .layui-nav-item .layui-nav-child {
     top: 55px;
 }
 
 .kit-nav .layui-this {
-    background-color: #393D49!important;
+    background-color: #393D49 !important;
 }
 
 .kit-nav * {
@@ -102,7 +90,7 @@ button {
 }
 
 .layui-layout-left .layui-nav-item:hover {
-    background-color: #393D49!important;
+    background-color: #393D49 !important;
 }
 
 .kit-nav .layui-nav-bar {
@@ -180,7 +168,6 @@ button {
 .kit-layout-admin .kit-footer-folded {
     left: 50px;
 }
-
 
 /* table相关 start */
 
@@ -291,9 +278,7 @@ button {
     margin: 0;
 }
 
-
 /* table相关 end */
-
 
 /*选项卡相关 start*/
 
@@ -371,9 +356,7 @@ button {
     border: 0;
 }
 
-
 /*选项卡相关 end*/
-
 
 /* @media screen and (max-width: 992px) { */
 
@@ -382,40 +365,57 @@ button {
     .kit-layout-admin .layui-footer {
         left: 50px;
     }
+
     .kit-layout-admin .kit-side {
         width: 50px;
     }
+
     .kit-layout-admin .kit-side .layui-side-scroll .layui-nav li.layui-nav-item,
     .kit-layout-admin .kit-side .layui-side-scroll .layui-nav li.layui-nav-item dl dd {
         text-align: center;
     }
+
     .kit-layout-admin .kit-side .layui-side-scroll .layui-nav li.layui-nav-item a,
     .kit-layout-admin .kit-side .layui-side-scroll .layui-nav li.layui-nav-item dl dd a {
         padding: 0;
     }
+
     .kit-layout-admin .kit-side .layui-side-scroll .layui-nav li.layui-nav-item a span,
     .kit-layout-admin .kit-side .layui-side-scroll .layui-nav li.layui-nav-item dl dd a span {
         display: none;
     }
+
     .kit-side .layui-side-scroll .kit-side-fold {
         display: none;
     }
+
     .kit-layout-admin .layui-logo {
         display: none;
     }
+
     .kit-layout-admin .kit-logo-mobile {
         display: block;
         width: 50px;
     }
+
     .kit-layout-admin .layui-layout-left {
         left: 50px;
     }
+
     .kit-table .kit-search-mored {
         width: 100%;
         box-shadow: 0 4px 7px -3px #ccc;
     }
+
     .kit-sided .layui-nav-tree .layui-nav-child a,
     .kit-side .layui-nav-tree .layui-nav-child a {
         padding-left: 0;
     }
 }
+
+/*************************************************/
+.nav-margin {margin-right: 13px}
+
+.font-ico-i {margin-right: 5px;color: #333333;}
+
+.font-ico-i-max {margin-right: 5px;color: #333333;font-size: 16px}

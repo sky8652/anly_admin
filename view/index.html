@@ -15,15 +15,15 @@
 <div class="layui-layout layui-layout-admin kit-layout-admin">
     <div class="layui-header">
         <div class="layui-logo">Anly 管理后台</div>
-        <ul class="layui-nav layui-layout-right kit-nav">
+        <ul class="layui-nav layui-layout-right kit-nav nav-margin">
             <li class="layui-nav-item">
-                <a href="javascript:;"><img src="http://m.zhengjinfan.cn/images/0.jpg" class="layui-nav-img"> Anly</a>
+                <a href="javascript:;"><img src="../src/img/Anly.jpg" class="layui-nav-img"> Anly</a>
                 <dl class="layui-nav-child">
-                    <dd><a href="javascript:;" kit-target data-options="{url:'basic.html',icon:'&#xe658;',title:'基本资料',id:'966'}"><span>基本资料</span></a></dd>
-                    <dd><a href="javascript:;">安全设置</a></dd>
+                    <dd><a href="javascript:;" data-url="#"><i class="fa fa-address-card-o font-ico-i"></i><cite>个人资料</cite></a></dd>
+                    <dd><a href="javascript:;" data-url="#"><i class="fa fa-pencil-square-o font-ico-i-max"></i><cite>修改密码</cite></a></dd>
+                    <dd><a href="#" class="signOut"><i class="fa fa-power-off font-ico-i-max "></i><cite>退出</cite></a></dd>
                 </dl>
             </li>
-            <li class="layui-nav-item"><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> 注销</a></li>
         </ul>
     </div>
 
@@ -37,9 +37,11 @@
                 <li class="layui-nav-item">
                     <a class="" href="javascript:;"><i class="fa fa-user" aria-hidden="true"></i><span> 个人中心 </span></a>
                     <dl class="layui-nav-child">
-                        <dd><a href="javascript:;" data-url="form.html" data-icon="fa fa-circle-o" data-title="个人资料" kit-target data-id='2'><i class="fa fa-circle-o" aria-hidden="true"></i><span> 个人资料</span></a></dd>
-                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-key" data-title="修改密码" kit-target data-id='3'><i class="fa fa-key"></i><span> 修改密码</span></a></dd>
-                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-suitcase" data-title="日志信息" kit-target data-id='4'><i class="fa fa-suitcase"></i><span> 日志信息</span></a></dd>
+                        <dd>
+                            <a href="javascript:;" data-url="form.html" data-icon="fa fa-circle-o" data-title="个人资料" kit-target data-id="2"><i class="fa fa-circle-o" aria-hidden="true"></i><span> 个人资料</span></a>
+                        </dd>
+                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-key" data-title="修改密码" kit-target data-id="3"><i class="fa fa-key"></i><span> 修改密码</span></a></dd>
+                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-suitcase" data-title="日志信息" kit-target data-id="4"><i class="fa fa-suitcase"></i><span> 日志信息</span></a></dd>
                     </dl>
                 </li>
                 <!--个人中心end-->
@@ -48,9 +50,11 @@
                 <li class="layui-nav-item">
                     <a class="" href="javascript:;"><i class="fa fa-user-secret" aria-hidden="true"></i><span> 用户管理 </span></a>
                     <dl class="layui-nav-child">
-                        <dd><a href="javascript:;" data-url="form.html" data-icon="fa fa-circle-o" data-title="用户列表" kit-target data-id='2'><i class="fa fa-circle-o" aria-hidden="true"></i><span> 用户列表</span></a></dd>
-                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-circle-o" data-title="角色列表" kit-target data-id='3'><i class="fa fa-circle-o"></i><span> 角色列表</span></a></dd>
-                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-circle-o" data-title="菜单管理" kit-target data-id='4'><i class="fa fa-circle-o"></i><span> 菜单管理</span></a></dd>
+                        <dd>
+                            <a href="javascript:;" data-url="form.html" data-icon="fa fa-circle-o" data-title="用户列表" kit-target data-id="2"><i class="fa fa-circle-o" aria-hidden="true"></i><span> 用户列表</span></a>
+                        </dd>
+                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-circle-o" data-title="角色列表" kit-target data-id="3"><i class="fa fa-circle-o"></i><span> 角色列表</span></a></dd>
+                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-circle-o" data-title="菜单管理" kit-target data-id="4"><i class="fa fa-circle-o"></i><span> 菜单管理</span></a></dd>
                     </dl>
                 </li>
                 <!--用户管理end-->
@@ -59,7 +63,9 @@
                 <li class="layui-nav-item">
                     <a class="" href="javascript:;"><i class="fa fa-users" aria-hidden="true"></i><span> 会员管理 </span></a>
                     <dl class="layui-nav-child">
-                        <dd><a href="javascript:;" data-url="userList.html" data-icon="fa fa-circle-o" data-title="会员列表" kit-target data-id='2'><i class="fa fa-circle-o" aria-hidden="true"></i><span> 会员列表</span></a></dd>
+                        <dd>
+                            <a href="javascript:;" data-url="userList.html" data-icon="fa fa-circle-o" data-title="会员列表" kit-target data-id="2"><i class="fa fa-circle-o" aria-hidden="true"></i><span> 会员列表</span></a>
+                        </dd>
                     </dl>
                 </li>
                 <!--会员管理end-->
@@ -68,8 +74,12 @@
                 <li class="layui-nav-item">
                     <a class="" href="javascript:;"><i class="fa fa-circle-o" aria-hidden="true"></i><span> 内容管理 </span></a>
                     <dl class="layui-nav-child">
-                        <dd><a href="javascript:;" data-url="form.html" data-icon="fa fa-circle-o" data-title="新闻列表" kit-target data-id='2'><i class="fa fa-circle-o" aria-hidden="true"></i><span> 新闻列表</span></a></dd>
-                        <dd><a href="javascript:;" data-url="form.html" data-icon="fa fa-circle-o" data-title="添加文章" kit-target data-id='2'><i class="fa fa-circle-o" aria-hidden="true"></i><span> 添加文章</span></a></dd>
+                        <dd>
+                            <a href="javascript:;" data-url="form.html" data-icon="fa fa-circle-o" data-title="新闻列表" kit-target data-id="2"><i class="fa fa-circle-o" aria-hidden="true"></i><span> 新闻列表</span></a>
+                        </dd>
+                        <dd>
+                            <a href="javascript:;" data-url="form.html" data-icon="fa fa-circle-o" data-title="添加文章" kit-target data-id="2"><i class="fa fa-circle-o" aria-hidden="true"></i><span> 添加文章</span></a>
+                        </dd>
                     </dl>
                 </li>
                 <!--内容管理end-->
@@ -78,8 +88,8 @@
                 <li class="layui-nav-item">
                     <a class="" href="javascript:;"><i class="fa fa-paperclip" aria-hidden="true"></i><span> 导航管理 </span></a>
                     <dl class="layui-nav-child">
-                        <dd><a href="javascript:;" data-url="form.html" data-icon="fa-link" data-title="添加导航" kit-target data-id='2'><i class="fa fa-link" aria-hidden="true"></i><span> 添加导航</span></a></dd>
-                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa-list-ul" data-title="导航列表" kit-target data-id='3'><i class="fa fa-list-ul"></i><span> 导航列表</span></a></dd>
+                        <dd><a href="javascript:;" data-url="form.html" data-icon="fa-link" data-title="添加导航" kit-target data-id="2"><i class="fa fa-link" aria-hidden="true"></i><span> 添加导航</span></a></dd>
+                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa-list-ul" data-title="导航列表" kit-target data-id="3"><i class="fa fa-list-ul"></i><span> 导航列表</span></a></dd>
                     </dl>
                 </li>
                 <!--导航管理end-->
@@ -88,15 +98,19 @@
                 <li class="layui-nav-item ">
                     <a class="" href="javascript:;"><i class="fa fa-cogs" aria-hidden="true"></i><span> 系统设置 </span></a>
                     <dl class="layui-nav-child">
-                        <dd><a href="javascript:;" data-url="form.html" data-icon="fa fa-wrench" data-title="系统基本参数" kit-target data-id='2'><i class="fa fa-wrench" aria-hidden="true"></i><span> 系统基本参数</span></a></dd>
-                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-code" data-title="sql命令行功能工具" kit-target data-id='3'><i class="fa fa-code"></i><span> sql命令行功能工具</span></a></dd>
-                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-calendar-check-o" data-title="系统日志管理" kit-target data-id='4'><i class="fa fa-calendar-check-o"></i><span> 系统日志管理</span></a></dd>
-                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-shield" data-title="验证安全管理" kit-target data-id='5'><i class="fa fa-shield"></i><span> 验证安全管理</span></a></dd>
-                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-image" data-title="图片水印设置" kit-target data-id='6'><i class="fa fa-image"></i><span> 图片水印设置</span></a></dd>
-                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-book" data-title="安全字典设置" kit-target data-id='7'><i class="fa fa-book"></i><span> 安全字典设置</span></a></dd>
-                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-envelope" data-title="短信接口设置" kit-target data-id='8'><i class="fa fa-envelope"></i><span> 短信接口设置</span></a></dd>
-                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-bug" data-title="系统错误修复" kit-target data-id='9'><i class="fa fa-bug"></i><span> 系统错误修复</span></a></dd>
-                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-database" data-title="数据库管理" kit-target data-id='10'><i class="fa fa-database"></i><span> 数据库管理</span></a></dd>
+                        <dd>
+                            <a href="javascript:;" data-url="form.html" data-icon="fa fa-wrench" data-title="系统基本参数" kit-target data-id="2"><i class="fa fa-wrench" aria-hidden="true"></i><span> 系统基本参数</span></a>
+                        </dd>
+                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-code" data-title="sql命令行功能工具" kit-target data-id="3"><i class="fa fa-code"></i><span> sql命令行功能工具</span></a></dd>
+                        <dd>
+                            <a href="javascript:;" data-url="nav.html" data-icon="fa fa-calendar-check-o" data-title="系统日志管理" kit-target data-id="4"><i class="fa fa-calendar-check-o"></i><span> 系统日志管理</span></a>
+                        </dd>
+                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-shield" data-title="验证安全管理" kit-target data-id="5"><i class="fa fa-shield"></i><span> 验证安全管理</span></a></dd>
+                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-image" data-title="图片水印设置" kit-target data-id="6"><i class="fa fa-image"></i><span> 图片水印设置</span></a></dd>
+                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-book" data-title="安全字典设置" kit-target data-id="7"><i class="fa fa-book"></i><span> 安全字典设置</span></a></dd>
+                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-envelope" data-title="短信接口设置" kit-target data-id="8"><i class="fa fa-envelope"></i><span> 短信接口设置</span></a></dd>
+                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-bug" data-title="系统错误修复" kit-target data-id="9"><i class="fa fa-bug"></i><span> 系统错误修复</span></a></dd>
+                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-database" data-title="数据库管理" kit-target data-id="10"><i class="fa fa-database"></i><span> 数据库管理</span></a></dd>
                     </dl>
                 </li>
                 <!--系统设置end-->
@@ -120,38 +134,38 @@
 <script>
     var message;
     layui.config({
-        base: '../src/js/',
-        version: '1.0'
+        base   : '../src/js/',
+        version: '1.0',
     }).use(['app', 'message'], function () {
-        var app = layui.app,
-            $ = layui.jquery,
+        var app   = layui.app,
+            $     = layui.jquery,
             layer = layui.layer;
         //将message设置为全局以便子页面调用
-        message = layui.message;
+        message   = layui.message;
         //主入口
         app.set({
-            type: 'iframe'
+            type: 'iframe',
         }).init();
         $('dl.skin > dd').on('click', function () {
             var $that = $(this);
-            var skin = $that.children('a').data('skin');
+            var skin  = $that.children('a').data('skin');
             switchSkin(skin);
         });
-        var setSkin = function (value) {
+        var setSkin     = function (value) {
                 layui.data('kit_skin', {
-                    key: 'skin',
-                    value: value
+                    key  : 'skin',
+                    value: value,
                 });
             },
             getSkinName = function () {
                 return layui.data('kit_skin').skin;
             },
-            switchSkin = function (value) {
-                var _target = $('link[kit-skin]')[0];
+            switchSkin  = function (value) {
+                var _target  = $('link[kit-skin]')[0];
                 _target.href = _target.href.substring(0, _target.href.lastIndexOf('/') + 1) + value + _target.href.substring(_target.href.lastIndexOf('.'));
                 setSkin(value);
             },
-            initSkin = function () {
+            initSkin    = function () {
                 var skin = getSkinName();
                 switchSkin(skin === undefined ? 'default' : skin);
             }();
