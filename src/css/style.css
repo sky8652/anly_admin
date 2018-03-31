@@ -233,3 +233,9 @@
 
 /* 表格样式 */
 .table_box{margin: 26px 0 20px 16px}
+
+
+/***************************************************************************/
+.panel_box{ margin-bottom:5px;}
+.childrenBody{ padding:10px;}
+.panel_box a{display:block; border-radius:5px; overflow:hidden; height:80px; background-color:#f2f2f2 !important; }
