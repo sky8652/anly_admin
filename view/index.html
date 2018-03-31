@@ -19,9 +19,7 @@
             <li class="layui-nav-item">
                 <a href="javascript:;"><img src="../src/img/Anly.jpg" class="layui-nav-img"> Anly</a>
                 <dl class="layui-nav-child">
-                    <dd><a href="javascript:;" data-url="#"><i class="fa fa-address-card-o font-ico-i"></i><cite>个人资料</cite></a></dd>
-                    <dd><a href="javascript:;" data-url="#"><i class="fa fa-pencil-square-o font-ico-i-max"></i><cite>修改密码</cite></a></dd>
-                    <dd><a href="#" class="signOut"><i class="fa fa-power-off font-ico-i-max "></i><cite>退出</cite></a></dd>
+                    <dd><a href="system/login.html" class="signOut"><i class="fa fa-power-off font-ico-i-max "></i><cite>退出</cite></a></dd>
                 </dl>
             </li>
         </ul>
@@ -38,9 +36,10 @@
                     <a class="" href="javascript:;"><i class="fa fa-user" aria-hidden="true"></i><span> 个人中心 </span></a>
                     <dl class="layui-nav-child">
                         <dd>
-                            <a href="javascript:;" data-url="form.html" data-icon="fa fa-circle-o" data-title="个人资料" kit-target data-id="2"><i class="fa fa-circle-o" aria-hidden="true"></i><span> 个人资料</span></a>
+                            <a href="javascript:;" data-url="system/sys_forget_pwd.html" data-icon="fa fa-address-card-o" data-title="个人资料" kit-target data-id="2"><i class="fa fa-address-card-o" aria-hidden="true"></i><span> 个人资料</span></a>
                         </dd>
-                        <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-key" data-title="修改密码" kit-target data-id="3"><i class="fa fa-key"></i><span> 修改密码</span></a></dd>
+                        <dd>
+                            <a href="javascript:;" data-url="system/sys_forget_pwd.html" data-icon="fa fa-pencil-square-o" data-title="修改密码" kit-target data-id="3"><i class="fa fa-pencil-square-o"></i><span> 修改密码</span></a></dd>
                         <dd><a href="javascript:;" data-url="nav.html" data-icon="fa fa-suitcase" data-title="日志信息" kit-target data-id="4"><i class="fa fa-suitcase"></i><span> 日志信息</span></a></dd>
                     </dl>
                 </li>
@@ -114,6 +113,10 @@
                     </dl>
                 </li>
                 <!--系统设置end-->
+
+                <li class="layui-nav-item">
+                    <a href="javascript:;"><i class="iconfont">&#xe600;</i>备份管理</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -171,6 +174,7 @@
             }();
     });
 </script>
+
 </body>
 
 </html>

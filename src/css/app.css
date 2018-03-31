@@ -416,6 +416,10 @@ button {
 /*************************************************/
 .nav-margin {margin-right: 13px}
 
+.font-ico {margin-right: 5px;}
+
 .font-ico-i {margin-right: 5px;color: #333333;}
 
 .font-ico-i-max {margin-right: 5px;color: #333333;font-size: 16px}
+
+.childrenBody{margin-top: 10px}
