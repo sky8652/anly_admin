@@ -11,31 +11,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="restore.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/view/system/restore.html">
+      <file leaf-file-name="emailconfig.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/system/emailconfig.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-416">
-              <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="184">
+              <caret line="68" column="138" lean-forward="false" selection-start-line="68" selection-start-column="138" selection-end-line="68" selection-end-column="138" />
+              <folding>
+                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#6;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sms.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/system/sms.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-700">
+              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dblist.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/system/dblist.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="121" column="68" lean-forward="true" selection-start-line="121" selection-start-column="68" selection-end-line="121" selection-end-column="75" />
+            <state relative-caret-position="190">
+              <caret line="93" column="178" lean-forward="false" selection-start-line="93" selection-start-column="178" selection-end-line="93" selection-end-column="178" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -91,9 +93,12 @@
         <option value="$PROJECT_DIR$/view/system/sys_forget_pwd.html" />
         <option value="$PROJECT_DIR$/src/css/app.css" />
         <option value="$PROJECT_DIR$/view/system/sys_user_info.html" />
-        <option value="$PROJECT_DIR$/view/index.html" />
         <option value="$PROJECT_DIR$/view/system/dblist.html" />
         <option value="$PROJECT_DIR$/view/system/restore.html" />
+        <option value="$PROJECT_DIR$/view/system/webconfig.html" />
+        <option value="$PROJECT_DIR$/view/system/sms.html" />
+        <option value="$PROJECT_DIR$/view/system/emailconfig.html" />
+        <option value="$PROJECT_DIR$/view/index.html" />
       </list>
     </option>
   </component>
@@ -136,7 +141,18 @@
             <path>
               <item name="anly_admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="anly_admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="anly_admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anly_admin" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="anly_admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anly_admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="anly_admin" type="b2602c69:ProjectViewProjectNode" />
@@ -198,12 +214,12 @@
       <option name="presentableId" value="Default" />
       <updated>1522323925466</updated>
       <workItem from="1522323926612" duration="16778000" />
-      <workItem from="1522411938444" duration="21087000" />
+      <workItem from="1522411938444" duration="23181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37865000" />
+    <option name="totallyTimeSpent" value="39959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="159" width="1936" height="1056" extended-state="6" />
@@ -566,13 +582,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/index.html">
+    <entry file="file://$PROJECT_DIR$/view/system/restore.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="121" column="68" lean-forward="true" selection-start-line="121" selection-start-column="68" selection-end-line="121" selection-end-column="75" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="-416">
+          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -584,11 +598,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/system/restore.html">
+    <entry file="file://$PROJECT_DIR$/view/system/webconfig.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-416">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        <state relative-caret-position="500">
+          <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/system/sms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/system/emailconfig.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="68" column="138" lean-forward="false" selection-start-line="68" selection-start-column="138" selection-end-line="68" selection-end-column="138" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#6;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="93" column="178" lean-forward="false" selection-start-line="93" selection-start-column="178" selection-end-line="93" selection-end-column="178" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
